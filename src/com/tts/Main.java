@@ -15,6 +15,12 @@ public class Main {
             System.out.println(Calculator.Cosine.cosNum(3));
             System.out.println(Calculator.Tangent.tanNum(23));
             System.out.println(Calculator.Factorial.factNum(5));
+            System.out.println(Calculator.Pi.piNum(1));
+            System.out.println(Calculator.Power.powNum(3, 5));
+            System.out.println(Calculator.Absolute.absNum(-3894));
+            System.out.println(Calculator.Log.logNum(77));
+            System.out.println(Calculator.Log10.log10Num(77));
+
 
     }
 
