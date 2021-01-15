@@ -10,9 +10,10 @@ public class Main {
             System.out.println(Calculator.Multiply.multNum(5.0, 5.0));
             System.out.println(Calculator.Divide.divNum(9.0, 3.0));
             System.out.println(Calculator.Square.sqNum(6));
+            System.out.println(Calculator.SquareRoot.sqrtNum(49));
             System.out.println(Calculator.Sine.sinNum(3));
             System.out.println(Calculator.Cosine.cosNum(3));
-            System.out.println(Calculator.Tangent.tanNum(5));
+            System.out.println(Calculator.Tangent.tanNum(23));
             System.out.println(Calculator.Factorial.factNum(5));
 
     }

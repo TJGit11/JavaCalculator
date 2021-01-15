@@ -185,6 +185,30 @@ public class Calculator {
         }
     }
 
+    public static class SquareRoot {
+        public double int1;
+
+
+        public SquareRoot() {
+        }
+
+        public SquareRoot(double int1) {
+            this.int1 = int1;
+        }
+
+        public double getInt1() {
+            return int1;
+        }
+
+        public void setInt1(double int1) {
+            this.int1 = int1;
+        }
+
+        public static double sqrtNum(double int1) {
+            return Math.sqrt(int1);
+        }
+    }
+
     public static class Sine {
         public double int1;
 
